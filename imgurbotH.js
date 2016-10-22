@@ -116,7 +116,7 @@ function emptystack() {
 	if (poststack.size()!=0) {
 				var post = poststack.pop();
 			console.log("Posting: "+post.pn+" - "+post.ps);	
-			webHooks.trigger('discord', {content: post.pn+"\n"+post.ps});
+			//webHooks.trigger('discord', {content: post.pn+"\n"+post.ps});
 	}
 	if (poststack.size()!=0) {
 	setTimeout(emptystack, 500);
