@@ -4,7 +4,7 @@
   "description": "ayylmao",
   "main": "imgurbotH.js",
   "scripts": {
-    "test": "what"
+    "start": "imgurbotH.js"
   },
   "repository": {
     "type": "git",
