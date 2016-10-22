@@ -12,6 +12,19 @@ var timeout = time*(60*1000);
 var add_hours = 0;
 var add_minutes = 0;
 var webHooks = null;
+var http = require("http");
+http.createServer(function (request, response) {
+   // Send the HTTP header 
+   // HTTP Status: 200 : OK
+   // Content Type: text/plain
+   response.writeHead(200, {'Content-Type': 'text/plain'});
+   
+   // Send the response body as "Hello World"
+   response.end('Frab!\n');
+}).listen(process.env.PORT || 8081);
+
+// Console will print the message
+console.log('Server running at http://127.0.0.1:8081/');
 	
 	// TIME 
 if (timeout<60000) {timeout = 60000;}
