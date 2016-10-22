@@ -1,0 +1,22 @@
+{
+  "name": "imgurbot",
+  "version": "1.0.0",
+  "description": "ayylmao",
+  "main": "imgurbotH.js",
+  "scripts": {
+    "test": "what"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbcore3/ImgurBoddd.git"
+  },
+  "keywords": [
+    "ímgur"
+  ],
+  "author": "le2can",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbcore3/ImgurBoddd/issues"
+  },
+  "homepage": "https://github.com/Elbcore3/ImgurBoddd#readme"
+}
