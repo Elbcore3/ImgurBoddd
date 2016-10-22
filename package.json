@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "ayylmao",
   "main": "imgurbotH.js",
-  "scripts": {
-    "start": "imgurbotH.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Elbcore3/ImgurBoddd.git"
